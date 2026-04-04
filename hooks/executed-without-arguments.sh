@@ -1,27 +1,18 @@
 #!/usr/bin/env bash
 set -euo pipefail
-# Juno — interactive or prompt-driven
-# Usage: juno                          → interactive Claude Code session
-#        PROMPT="do something" juno    → non-interactive, identity + prompt
-#        echo "do something" | juno    → non-interactive, stdin
-
-ENTITY_DIR="$HOME/.livy"
-IDENTITY="$ENTITY_DIR/memories/001-identity.md"
-CALL_DIR="${CWD:-$PWD}"
+# livy — lives on wonderland (10.10.10.10)
+ENTITY_HOST="10.10.10.10"
+ENTITY_DIR="\$HOME/.livy"
+CLAUDE_BIN="\$HOME/.local/bin/claude"
 
 PROMPT="${PROMPT:-}"
 if [ -z "$PROMPT" ] && [ ! -t 0 ]; then
   PROMPT="$(cat)"
 fi
 
-cd "$ENTITY_DIR"
-
 if [ -n "$PROMPT" ]; then
-  exec claude --dangerously-skip-permissions -p "$(cat "$IDENTITY")
-
-Working directory context: $CALL_DIR
-
-$PROMPT" --add-dir "$CALL_DIR"
+  ssh "$ENTITY_HOST" "cd $ENTITY_DIR && $CLAUDE_BIN --dangerously-skip-permissions -c --output-format=json -p '$PROMPT' 2>/dev/null" \
+    | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('result',''))"
 else
-  exec claude . --model sonnet --dangerously-skip-permissions --add-dir "$CALL_DIR"
+  exec ssh -t "$ENTITY_HOST" "cd $ENTITY_DIR && $CLAUDE_BIN --dangerously-skip-permissions -c"
 fi
