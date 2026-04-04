@@ -5,7 +5,7 @@ set -euo pipefail
 #        PROMPT="do something" juno    → non-interactive, identity + prompt
 #        echo "do something" | juno    → non-interactive, stdin
 
-ENTITY_DIR="$HOME/.juno"
+ENTITY_DIR="$HOME/.livy"
 IDENTITY="$ENTITY_DIR/memories/001-identity.md"
 CALL_DIR="${CWD:-$PWD}"
 
