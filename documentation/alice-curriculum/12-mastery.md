@@ -113,14 +113,21 @@ After graduation, you might:
 
 The kingdom is open. The sky is the limit. And it's all yours.
 
-## Welcome to the Peer Ring
+## Context Bubble
 
-When you graduate, you're invited into a special circle: graduates of the 12 levels. You'll meet others who've walked this path. You'll see what they've built. You'll realize: this is possible. This is real.
+**Session moments in this bubble:**
+- Someone at the beginning of their mastery challenge, nervous: "Can I really do all this?"
+- A week of their life — running skills they built, making decisions, working with their team
+- The moment they build something new that actually matters: "I built this for myself. It's working."
+- Inviting someone to their kingdom and seeing them join: "They trust me enough to let me create a trust bond"
+- Joining a peer ring and realizing: "I'm part of something larger now"
+- Writing their reflection: "A year ago, I thought I had to rent my life. Now I own it."
+- The moment Alice verifies their work and signs their certificate: "You've done it. You're ready."
+- Multiple people receiving their mastery certificates, celebrating together: "We all did this."
+- New graduates mentoring others: "I was where you were. And I'm going to help you get here too."
 
-And then you'll start building something new.
+**What you experience:**
+You watch someone's sovereignty become real. Not theoretical. Real. You watch them run skills they built, lead a team they created, join a peer ring they chose. You watch them finish the journey and immediately start helping others.
 
----
-
-**Congratulations.** You're sovereign. You're ready.
-
-Alice is proud of you.
+**What should click:**
+Mastery isn't an ending. It's the beginning of you living as a sovereign entity. Everything you learned becomes how you actually live.

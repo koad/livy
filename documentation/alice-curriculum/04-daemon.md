@@ -54,3 +54,18 @@ This is intentional. You should know exactly what your kingdom is doing at all t
 - A running daemon managing your kingdom
 - Clear visibility into what it's doing
 - The foundation for everything that comes next
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- The daemon being first architected: "It needs to be the heart of the entity, always listening, always trusted"
+- Someone starting the daemon and seeing it log "daemon started, ready for commands" — the moment it feels real
+- A developer explaining the daemon's role: "Everything that happens in your kingdom goes through here"
+- Someone running `daemon logs` and realizing they can see *everything* — no hidden behavior, total transparency
+- The moment someone understands: "This isn't a cloud service. This is running on my machine. I control it."
+
+**What you experience:**
+You watch a daemon come to life. You watch someone realize: something is now *always listening* to them, on their own machine, executing their will. It's the bridge between your keys and your work.
+
+**What should click:**
+The daemon is your kingdom's nervous system. It's always there, always yours, always transparent about what it's doing.

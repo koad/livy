@@ -53,3 +53,17 @@ The signature is verifiable proof that you created that file, in that moment, wi
 - A running key agent on your machine
 - Understanding that your keys are *you* — and they're safe
 - A signed message as proof you can use your identity
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- A cryptographer explaining why private keys are so powerful: "This key is you. If someone has it, they are you."
+- Someone's first realization about centralized platforms: "Wait, they hold MY keys? They could pretend to be me?"
+- The moment someone signs their first message and verifies it — the aha: "This signature *proves* I created this. And no one else can forge it."
+- A developer explaining the key agent: "Your keys stay on your machine. I never see them. You control them."
+
+**What you experience:**
+You watch the power of cryptographic identity sink in. You watch someone realize: my private key is truly *mine*. It's the difference between trusting a company and trusting math.
+
+**What should click:**
+Cryptography is how you prove you're you, permanently and without intermediaries. Your keys are the most important thing you own.

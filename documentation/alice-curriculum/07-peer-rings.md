@@ -67,3 +67,19 @@ Congratulations. You're part of a peer ring. You're sovereign, but you're also c
 - Understanding of decentralized governance
 - A community of people who've chosen to trust each other
 - The ability to coordinate at scale without a central authority
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- A group of sovereign entities realizing: "We could work together without anyone being in charge"
+- The moment the peer ring model was first articulated: "It's like a guild, but governed by cryptography, not hierarchy"
+- Someone joining a peer ring and watching the signatures verify: "All these people, all verifiable, all here by choice"
+- The realization: "No CEO. No central server. Just people who decided to trust each other."
+- A developer explaining the ring's structure: "Every decision is recorded. Every member can audit it. You're transparent, not at the mercy of someone else's transparency"
+- Someone from a peer ring explaining to newcomers: "You're joining a circle. Not a company. A circle."
+
+**What you experience:**
+You watch coordination happen without hierarchy. You watch people realize that decentralized doesn't mean chaotic — it means *governed by agreement*, not by power.
+
+**What should click:**
+Peer rings show you what's possible when sovereignty scales. You're not alone. But you're not ruled by anyone either. You're part of something that chose you, and you chose it.

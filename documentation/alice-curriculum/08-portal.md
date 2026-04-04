@@ -77,3 +77,19 @@ Now only Bob and Charlie (if they sign their requests with their keys) can call 
 - A public portal exposing your work
 - Understanding how to share your skills without giving up control
 - The ability to build services that others can use
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- Someone saying: "I built this tool. I want to share it. But I don't want to give away my keys."
+- The portal being designed: "How do we let people use your skills without trusting them with your entity?"
+- Someone creating their first portal and watching traffic come in: "People are using my skill. I didn't give them any power. They just sent a request. I verified it. I ran it."
+- The realization: "I can share *anything* and stay in control."
+- A developer explaining rate limits, access controls: "You decide who gets to call what. The daemon enforces it."
+- Someone opening their portal and seeing it used in ways they never expected: "My work is having an impact. And I'm still sovereign."
+
+**What you experience:**
+You watch someone's private skill become a public service. You watch them realize: I can share without losing control. The internet doesn't have to mean giving away your power.
+
+**What should click:**
+Portals are how you scale your impact. You share your work with the world, but the world doesn't get your keys. You stay sovereign.

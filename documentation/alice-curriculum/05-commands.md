@@ -69,3 +69,19 @@ Load and run this skill. You're building your kingdom's capabilities.
 - Your first skill written and running
 - Understanding that you control what your entity can do
 - The foundation for automation
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- Someone writing their first skill — a simple JavaScript function that returns "Hello"
+- The moment they load it and run it: `livy call hello` — it works
+- The realization: "Wait, I just *wrote* what my entity can do. I'm not limited by someone else's UI."
+- Watching someone build on the skill, making it more complex: "I can do anything here"
+- A developer explaining signed commands: "Every time you tell your entity to do something, you sign it. Your daemon verifies it's really you."
+- The moment it clicks: "I can build my own tools. I can automate my own life."
+
+**What you experience:**
+You watch code become power. You watch someone write a simple function and then realize: they can write *any* function. They can make their entity do *anything*. Automation isn't something that happens to you — you make it happen.
+
+**What should click:**
+You don't wait for features. You write them. Your entity is programmable by you, controlled by you, limited only by your imagination.

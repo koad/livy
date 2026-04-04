@@ -105,3 +105,20 @@ Push yourself. What's something you do every week that could be a skill?
 - A real, working skill that solves an actual problem
 - Proof you can build for your own sovereignty
 - The knowledge that anything you do repeatedly can be automated
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- Someone describing a problem they face every week (backups, data processing, monitoring)
+- Watching them realize: "I could automate this. I could write a skill."
+- The moment they finish writing a skill and test it: "It works. It actually works."
+- The time saved, multiplied: they run it daily, then weekly, saving hours
+- Someone discovering a skill someone else wrote: "I can use this too?"
+- A peer ring discovering shared skills: "We all have this problem. One person wrote it. Now we all benefit."
+- The moment it clicks: "This is how you take your power back. You automate the things that were automating you."
+
+**What you experience:**
+You watch someone solve their own problem. You watch their autonomy increase as automation increases. You watch them realize: they can keep doing this, building more, solving more, forever.
+
+**What should click:**
+Real skills solve real problems. They're the difference between doing things to you and doing things for yourself.

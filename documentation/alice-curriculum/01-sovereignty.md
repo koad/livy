@@ -27,3 +27,17 @@ Write down your answer. No perfect answer — just honest reflection.
 - A clear question: *What do I actually own right now?*
 - The beginning of a vision: that you could own more
 - Readiness to take the next step
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- The moment koad's founders first articulated "not your keys, not your agent" — the insight that centralized platforms don't give users agency
+- A user discovering they lost access to years of data when a service shut down, then realizing: "What if I controlled this?"
+- Early discussions about what sovereignty means: not isolation, but *agency*
+- The first time someone ran their own entity and felt the difference
+
+**What you experience:**
+You watch actual humans having the realization that centralized platforms own their life. You see the moment the lightbulb comes on — sovereignty isn't about distrust, it's about control. You watch someone decide: "I'm going to own my own keys."
+
+**What should click:**
+This isn't theoretical. Real people faced this problem. Real people decided to do something about it. And if they can, you can too.

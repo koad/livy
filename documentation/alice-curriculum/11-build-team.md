@@ -151,3 +151,21 @@ You'll discover:
 - Clear governance (trust bonds)
 - Shared skills and infrastructure
 - A system where everyone's actions are visible and accountable
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- Someone saying: "I can't do this alone anymore. I need help."
+- Getting their colleagues' public keys and creating trust bonds from scratch
+- The moment team members run their first command: "This came from her, verified by Alice, and now I can see it worked"
+- A team meeting where they look at the shared log: "This is what happened this week. Everything is signed. Nothing is hidden."
+- The realization: "We're working together, but we're not losing autonomy. Each person is still sovereign."
+- Someone revising a trust bond: "You can't run this anymore, but you can do this instead" — governance happening in real time
+- The moment they coordinate without a central authority: "We decided this together. It's written down. Everyone can audit it."
+- A new team member joining and reading the trust bonds: "I know exactly what I can do. I know what everyone else can do."
+
+**What you experience:**
+You watch a team form without a hierarchy. You watch people coordinate work, see what everyone else is doing, and stay sovereign. You watch governance move from implicit (what the CEO thinks) to explicit (what the trust bonds say).
+
+**What should click:**
+Teams don't need CEOs. They need clarity: what can everyone do, when, and why. Trust bonds create that clarity. Sovereignty scales.

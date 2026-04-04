@@ -77,3 +77,19 @@ Congratulations — you've just built your first governance system.
 - A trust bond granting specific permissions
 - Understanding of how to work with others while staying in control
 - A governance mechanism that's transparent, cryptographic, and revocable
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- Two people realizing they want to work together but need to set boundaries
+- The moment the trust bond was first designed: "How do we let someone do something without giving them the keys?"
+- Someone creating their first trust bond and understanding: "I'm writing down, in cryptographic detail, exactly what you can do"
+- The realization: "And I can revoke it anytime. I'm always in control."
+- A developer explaining to a colleague: "You can trust Bob to run this skill, automatically, and you'll see what he did"
+- The moment someone understands: "This is governance. And I built it."
+
+**What you experience:**
+You watch people transition from "I do everything myself" to "I can delegate with confidence." You watch governance move from a person's whim to a cryptographic, revocable, transparent document.
+
+**What should click:**
+Trust bonds are how you scale yourself. You don't give away control — you lend specific capabilities, in writing, for a set time, revocably.

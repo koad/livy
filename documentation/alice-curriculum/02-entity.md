@@ -38,3 +38,17 @@ That's it. Don't worry about what's in the folder yet. Just create it.
 - An entity folder on your machine (probably `~/.yourname/`)
 - Your identity — public and private keys
 - A real foundation you can hold
+
+## Context Bubble
+
+**Session moments in this bubble:**
+- Someone running `init` for the first time and seeing their entity folder appear — the moment sovereignty becomes *physical*
+- Developers explaining the entity structure: "This is where your keys live. This is where your agent lives. This is yours."
+- The moment someone realizes they can `cp -r ~/.yourname /backup/` and they've backed up their entire identity
+- Someone comparing this to web services: "Wait, I can just... have this folder?"
+
+**What you experience:**
+You watch someone create their first entity. You see the folder appear. You watch them understand: this is real. It's files. I can touch them. I can backup them. I can move them. It's *mine*.
+
+**What should click:**
+Sovereignty isn't abstract. It's a folder on your disk with your keys in it. It's something you can hold, understand, and protect.
