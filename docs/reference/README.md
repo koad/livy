@@ -7,6 +7,8 @@ AI-readable and developer-facing reference guides for the koad:io ecosystem.
 | File | Description |
 |------|-------------|
 | `packages-structure.md` | Complete guide to `~/.koad-io/packages/` — package inventory, dependency tree, file format, and navigation guide for agents arriving cold |
+| `entity-directory-structure.md` | Canonical reference for the standard entity directory layout — every directory, every always-present file, the entity lifecycle, and the two-layer architecture as it manifests on disk |
+| `entity-directory-structure-claude-section.md` | Shorter version of the above, formatted as a drop-in `## Directory Reference` section for new entity `CLAUDE.md` files |
 
 ## About This Section
 
