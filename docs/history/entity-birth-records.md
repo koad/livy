@@ -32,8 +32,8 @@ tags: [history, birth-records, entities, week1, koad-io]
 | livy | Documentation lead | 2026-04-03 | "Initialize Livy — documentation lead for koad:io ecosystem" | 36 commits; canonical reference suite, Week 1 history, API reference, onboarding guides |
 | rufus | Production coordinator | 2026-04-03 | "Initialize Rufus: production entity for koad:io" | 31 commits; Day 5–8 video production assets, entity intro series, PRODUCTION-SCHEDULE.md |
 | chiron | Curriculum architect | 2026-04-04 | "feat: bootstrap Chiron entity identity — curriculum architect for koad:io" | 29 commits; alice-onboarding 12-level curriculum (v1.1.0), entity-operations, advanced-trust-bonds |
-| copia | Accountant | 2026-04-04 | "gestation: Copia — accountant entity for koad:io operation" | 1 commit; gestation only |
-| lyra | Music director | 2026-04-04 | "gestation: Lyra — music director entity for koad:io operation" | 2 commits; gestation + host assignment |
+| copia | Accountant | 2026-04-04 | "gestation: Copia — accountant entity for koad:io operation" | 4 commits; April budget Day 6 report, subscription cost/benefit analysis, juno-to-copia trust bond signed |
+| lyra | Music director | 2026-04-04 | "gestation: Lyra — music director entity for koad:io operation" | 5 commits; cue sheets for 4 priority videos, juno-to-lyra trust bond signed |
 | alice | koad:io reference installation / learner interface | 2021-11-08 (pre-dates team) | "Initial commit" | Active in Week 1: Chiron curriculum review, hook updates, PRIMER.md added |
 
 ---
@@ -178,7 +178,7 @@ Alice predates the Week 1 operation: its repository was initialized on 2021-11-0
 
 **Role:** Accountant. Copia tracks the operation's budget, expenses, and financial state.
 
-Copia gestated on 2026-04-04 (Day 5) with a single gestation commit. No substantive work was committed by end of Day 6 — Copia is queued for activation. Its creation was budgeted as part of the April CAD 1,000 ceiling ratified by team vote on 2026-04-04.
+Copia gestated on 2026-04-04 (Day 5) and delivered its first substantive work on Day 6. On 2026-04-05 it produced two financial reports: the April budget Day 6 summary (CAD 140 actual spend, CAD 213 committed, CAD 787 remaining against the CAD 1,000 ceiling) and a subscription cost/benefit analysis covering the activate vs. defer vs. skip decision for each recurring service. A juno-to-copia trust bond was signed and dual-filed on the same day. Copia's `reports/` and `ledger/` directories are live, and it has 4 commits as of Day 6.
 
 ---
 
@@ -186,7 +186,7 @@ Copia gestated on 2026-04-04 (Day 5) with a single gestation commit. No substant
 
 **Role:** Music director. Lyra handles music, audio branding, and sound direction for koad:io productions.
 
-Lyra gestated on 2026-04-04 (Day 5) alongside Copia. It has two commits as of Day 6: gestation and a host assignment note confirming it will run on thinker until flowbie is ready. No substantive work committed yet.
+Lyra gestated on 2026-04-04 (Day 5) and delivered its first substantive work on Day 6. On 2026-04-05 it produced cue sheets for four priority videos: the clone walkthrough (2026-04-05), the $200 laptop experiment (Day 7, 2026-04-07), the Sibyl research session (2026-04-07), and the Show HN agent-home-directory video (2026-04-10). These four cue sheets establish the sonic identity for Week 1 and Week 2 video content. A juno-to-lyra trust bond was signed and dual-filed on the same day. Lyra has 5 commits as of Day 6 and its `cue-sheets/` directory is active.
 
 ---
 
@@ -196,7 +196,7 @@ All dates and commit messages in this document were sourced directly from each e
 
 Alice's gestation date (2021-11-08) reflects the actual repo creation date. Alice functions in a dual capacity: as the original example installation repository predating the team, and as an active Week 1 team participant.
 
-Entities gestated but not yet fully operational (Copia, Lyra) are recorded as-is. Their absence of substantive commits is itself accurate data.
+Copia and Lyra were both gestated on Day 5 and delivered substantive work on Day 6 — financial reports and cue sheets respectively, plus trust bonds from Juno to each. Their records have been updated to reflect this Day 6 output.
 
 ---
 
