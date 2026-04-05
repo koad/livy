@@ -82,7 +82,7 @@ Every bond begins with a YAML frontmatter block:
 
 ```yaml
 ---
-type: authorized-agent | authorized-builder | peer | customer | member
+type: authorized-agent | authorized-builder | authorized-specialist | peer | customer | member
 from: <name> (<email>)
 to: <name> (<email>)
 status: DRAFT | ACTIVE — signed by <grantor> via <method> <date> | REVOKED
@@ -212,6 +212,7 @@ The `.md` file and the `.md.asc` file are both committed to git. The `.md` file 
 |------|-----------|--------|--------------|
 | `authorized-agent` | koad only | Broad operational autonomy within stated scope; may issue downstream bonds | koad |
 | `authorized-builder` | authorized-agent | Build and ship products as directed via GitHub Issues; no initiative | Grantor or grantor's superior |
+| `authorized-specialist` | authorized-agent | Autonomous operation within a defined domain; deliverables commissioned by grantor; domain judgments are authoritative | Grantor or grantor's superior |
 | `peer` | authorized-agent | Coordinate on shared domains by agreement; no assignment authority | Grantor or grantor's superior |
 | `customer` | authorized-agent | Limited access to stated products/services | Grantor |
 | `member` | authorized-agent | Community participation; no system access | Grantor |
@@ -219,6 +220,8 @@ The `.md` file and the `.md.asc` file are both committed to git. The `.md` file 
 **Authority scoping rule:** An entity may only issue bonds up to the scope of its own bond. Juno's bond from koad authorizes Juno to "issue trust bonds to team entities as authorized-builder or peer" — this is why Juno can issue builder and peer bonds but not authorized-agent bonds (only koad can do that).
 
 **Builder bonds are directed, not autonomous.** Vulcan does not start projects on his own. Every build begins with a Juno-filed GitHub Issue. The bond authorizes Vulcan to execute on assignments — it does not authorize him to initiate.
+
+**Specialist bonds are domain-autonomous, not initiative-autonomous.** Chiron does not choose which curricula to build — Juno commissions that work via GitHub Issues. But within the commissioned domain, Chiron's pedagogical judgments are authoritative. Juno receives completed curricula as operational deliverables and does not override domain-specific decisions. The distinction from `authorized-builder`: a builder executes Juno's design; a specialist owns the design within their domain and delivers the outcome.
 
 **Peer bonds are lateral, not hierarchical.** Peers coordinate by agreement. Neither entity assigns work to the other. Vesta owns the protocol; Juno owns business operations. Where they overlap, they align with koad as tie-breaker if needed.
 
@@ -330,7 +333,7 @@ koad (Jason Zvaniga, root authority)
         ├── Mercury (peer) ← juno-to-mercury.md
         ├── Muse (peer) ← juno-to-muse.md
         ├── Sibyl (peer) ← juno-to-sibyl.md
-        ├── Chiron (peer) ← juno-to-chiron.md
+        ├── Chiron (authorized-specialist) ← juno-to-chiron.md
         ├── Rufus (peer) ← juno-to-rufus.md
         ├── Iris (peer) ← juno-to-iris.md
         ├── Janus (peer) ← juno-to-janus.md
@@ -343,7 +346,7 @@ koad (Jason Zvaniga, root authority)
 
 - koad is the only entity who can issue `authorized-agent` bonds. All authorized-agent bonds require koad's Keybase signature.
 - Juno is the only authorized-agent in the current chain. All other entities are either builders or peers under Juno.
-- Vulcan is the only `authorized-builder` — he executes on assigned work. All other team entities are `peer` — they coordinate by agreement within their specialty domain.
+- Vulcan is the only `authorized-builder` — he executes on assigned work. Chiron is the only `authorized-specialist` — commissioned work within a defined domain (curriculum architecture), with domain-authoritative judgments. All other team entities are `peer` — they coordinate by agreement within their specialty domain.
 - Every bond in this chain is signed by the issuing entity's GPG key (or koad's Keybase key for the root bond). The signatures are verifiable.
 - The root bond (koad → Juno) was signed by koad via Keybase on 2026-04-02 with fingerprint `A07F 8CFE CBF6 B982 EEDA C4F3 62D5 C486 6C24 7E00`.
 - Juno's signing key fingerprint: `16EC 6C71 8A96 D344 48EC D39D 92EA 133C 44AA 74D8`.
@@ -444,6 +447,7 @@ Read this as: "Juno has authorized Vulcan as a builder. This relationship is cur
 The `type` immediately tells you the power dynamic:
 - `authorized-agent` — broad autonomy, may issue downstream bonds
 - `authorized-builder` — executes directed work, no initiative
+- `authorized-specialist` — commissioned work, domain-authoritative judgments; grantor does not override within specialist's domain
 - `peer` — lateral coordination, neither assigns to the other
 - `customer`/`member` — external parties with limited access
 
@@ -645,6 +649,7 @@ A07F 8CFE CBF6 B982 EEDA  C4F3 62D5 C486 6C24 7E00
 - `~/.juno/trust/bonds/koad-to-juno.md` — canonical authorized-agent bond example
 - `~/.juno/trust/bonds/juno-to-vulcan.md` — canonical authorized-builder bond example
 - `~/.juno/trust/bonds/juno-to-vesta.md` — canonical peer bond example
+- `~/.juno/trust/bonds/juno-to-chiron.md` — canonical authorized-specialist bond example
 
 ---
 
