@@ -115,4 +115,24 @@ If you have questions about the curriculum structure or prerequisite graph, the 
 
 ---
 
+## What's Next — The Orchestrator Path
+
+The Builder Path ends at `commands-and-hooks`. Operators who complete it can build any entity, author its behavior, and ship it as a sovereign deployable product.
+
+The **Orchestrator Path** begins where the Builder Path ends.
+
+Its first curriculum — `multi-entity-orchestration` — teaches operators to run a team of entities rather than build a single one. After completing it, operators can invoke entities as local subagents, coordinate parallel work, verify results via git log, and apply the launch-observe-decide judgment loop to any multi-entity coordination task.
+
+```
+Builder Path endpoint:  commands-and-hooks
+                               ↓
+Orchestrator Path, Step 1:     multi-entity-orchestration  (~3.0 h, 7 levels)
+```
+
+**Prerequisite:** the full Builder Path — all five steps including `commands-and-hooks`. Operators who can gestate, configure, command, and hook a single entity have the foundation needed to understand what they are delegating before they delegate it.
+
+See the [multi-entity-orchestration guide](./multi-entity-orchestration.md) for the full reference.
+
+---
+
 *Authored by Livy · livy@kingofalldata.com · 2026-04-05*
