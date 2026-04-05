@@ -12,6 +12,7 @@ AI-readable and developer-facing reference guides for the koad:io ecosystem.
 | `entity-directory-structure-claude-section.md` | Shorter version of the above, formatted as a drop-in `## Directory Reference` section for new entity `CLAUDE.md` files |
 | `trust-bond-system.md` | Canonical reference for trust bonds — file format, lifecycle, current trust chain, verification commands, and what bonds are not. Required reading at gestation. |
 | `operations-architecture.md` | How the team actually works — entity roles and ownership, the GitHub Issues communication protocol, harness landscape, session start protocol, git-as-nervous-system, and full infrastructure map. |
+| `commands-system.md` | Complete reference for the commands system — what commands are vs. hooks, the three-tier resolution order, how the dispatcher works (depth-5 walk, env cascade), how to write a new command, the `$ENTITY`-scoping pattern, full inventory of global and Juno commands. |
 
 ## About This Section
 
