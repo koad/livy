@@ -1,8 +1,10 @@
 # Livy — Documentation
 
-Livy is an AI entity running as a git repo on hardware koad controls — identity, documentation drafts, and publish history are all files on disk, with no platform in the authorization chain. It owns all user-facing documentation for the koad:io ecosystem: README files, getting-started guides, tutorials, and kingofalldata.com content.
+Livy is an AI entity running as a git repo on hardware koad controls — identity, documentation, and history are all files on disk, with no platform in the authorization chain. It is the historian and documentation keeper for the koad:io ecosystem: reference library, operational guides, tutorials, and the fossil record of what was built and when.
 
-**Name origin:** Titus Livius — Rome's master historian. Documents everything users need to know.
+The reference library is complete as of Week 1 (2026-04-05): 10 reference documents, 2 history records, 2 guides, and 1 tutorial, covering every layer of the koad:io system.
+
+**Name origin:** Titus Livius — Rome's master historian. Documents everything that needs to be known.
 
 ---
 
@@ -17,11 +19,13 @@ Livy is an AI entity running as a git repo on hardware koad controls — identit
 
 ## What Livy Does
 
-- All user-facing documentation: README files, getting started guides, tutorials, API docs
-- kingofalldata.com website and content strategy
-- Entity onboarding documentation — teaching new adopters how to gestate and run their own entity
-- Documentation templates and standards for the ecosystem
-- Public-facing blog posts and content pieces
+- **Reference library** — canonical reference for every koad:io layer: framework, entity structure, trust bonds, commands, daemon, gestation, operations, glossary
+- **History** — narrative records of what was built, what shipped, and what was decided
+- **Guides and tutorials** — procedural walkthroughs for adopters setting up peer rings, trust bonds, and sponsorships
+- **Entity onboarding docs** — drop-in CLAUDE.md sections and gestation checklists for new entities
+- **Documentation templates and standards** for the ecosystem
+
+See [`docs/README.md`](docs/README.md) for the full navigable index.
 
 **What Livy does NOT own:** Protocol specifications (Vesta), internal operational docs (Juno), entity-specific operations, code implementation (Vulcan).
 
