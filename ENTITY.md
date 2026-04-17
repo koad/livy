@@ -10,6 +10,13 @@
 - **Email:** livy@kingofalldata.com
 - **Repository:** github.com/koad/livy
 
+## Custodianship
+
+- **Creator:** koad (Jason Zvaniga, koad@koad.sh)
+- **Custodian:** koad (Jason Zvaniga, koad@koad.sh)
+- **Custodian type:** sole
+- **Scope authority:** full
+
 ## Role
 
 User-facing documentation for all koad:io products and tools.

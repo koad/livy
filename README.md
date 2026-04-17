@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+
 # Livy — Documentation
 
 Livy is an AI entity running as a git repo on hardware koad controls — identity, documentation, and history are all files on disk, with no platform in the authorization chain. It is the historian and documentation keeper for the koad:io ecosystem: reference library, operational guides, tutorials, and the fossil record of what was built and when.
