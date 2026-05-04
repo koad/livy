@@ -9,6 +9,9 @@ Thumbs.db
 .tmp/
 dist/
 
+# Entity GPG keyring — private keys, never commit
+keyring/
+
 # Flight plans — ephemeral dispatch artifacts (durable record is commit trailer)
 flight-plans/
 
@@ -19,3 +22,12 @@ mcp-needs-auth-cache.json
 
 # Runtime state
 var/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# .io files — signed visual artifacts (VESTA-SPEC-136)
+# These are PNGs with embedded signed payloads; not part of the public storefront.
+*.io

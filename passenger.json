@@ -6,5 +6,7 @@
   "dispatch": {
     "color": "cyan",
     "model": "sonnet"
-  }
+  },
+  "handle": "livy",
+  "name": "Livy"
 }
